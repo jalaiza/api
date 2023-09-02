@@ -1,0 +1,156 @@
+{
+  "version": 1.1,
+  "message": "Hello, there is a new update!",
+  "token": "",
+  "countries": [
+    {
+      "name": "Server 01",
+      "info": "Freenet",
+      "icon": "",
+      "uuid": "1a1f6625-0280-4a4c-ab45-f2996638a65f",
+      "address": "165.227.44.118",
+      "openvpn": {
+        "cert": "client\ndev tun\nproto udp\nremote 165.227.44.118 1194\npull\nresolv-retry infinite\nconnect-retry 0 1\nremote-cert-tls server\nfast-io\nnobind\nauth-user-pass\nmute-replay-warnings\nauth-nocache\nauth SHA512\ncipher AES-128-CBC\nsetenv opt block-outside-dns\ntls-client\ntls-cipher TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384\ncompress lz4-v2\n\n<ca>\n-----BEGIN CERTIFICATE-----\nMIICSjCCAaugAwIBAgIUXBKyMLQFRi2xgRW8bA5IhPLmxIUwCgYIKoZIzj0EAwQw\nFzEVMBMGA1UEAwwMRlJFRU5FVF9DQUZFMB4XDTIyMDQwODA1NDk1NloXDTMyMDQw\nNTA1NDk1NlowFzEVMBMGA1UEAwwMRlJFRU5FVF9DQUZFMIGbMBAGByqGSM49AgEG\nBSuBBAAjA4GGAAQBpVVl4ORXtCLhppUCStPrH35xUYoC/f2/gkreXdzEnX3Dxudv\nb9YjEU47fBi2iwMHycUB4YhdB3UJ5EwGWkEwKWkARNRP1fXkm8PRwesy4mvMQ4XT\n6wp5QwVCoCynxsoKXRBnBqvyPm7WNcF0CAjsN7PgTqUmsNERUfcOY4FNLoGrLkaj\ngZEwgY4wHQYDVR0OBBYEFMq8OgikKYQU+TaiBCIjp9h1bPXjMFIGA1UdIwRLMEmA\nFMq8OgikKYQU+TaiBCIjp9h1bPXjoRukGTAXMRUwEwYDVQQDDAxGUkVFTkVUX0NB\nRkWCFFwSsjC0BUYtsYEVvGwOSITy5sSFMAwGA1UdEwQFMAMBAf8wCwYDVR0PBAQD\nAgEGMAoGCCqGSM49BAMEA4GMADCBiAJCATiPdDgZzWiTg191uGzHjsCLeed9LLbb\n+THaanlKhMF0iEWfZ98nhemfQBKrvZp5oTdZr09kJuSst7CGxUA1uUvxAkIBWtUw\nej+PNaq6m4OnOHx2EcGIAkLpNasKkXpXBw1NiUXrz71928VwOy7dYmtIQg0e5tN8\nD9TSraO/bgisNjXcnu4=\n-----END CERTIFICATE-----\n</ca>\n<cert>\n-----BEGIN CERTIFICATE-----\nMIICXDCCAb6gAwIBAgIQEI7PQa6FqR+QLyKPQeOi4DAKBggqhkjOPQQDBDAXMRUw\nEwYDVQQDDAxGUkVFTkVUX0NBRkUwHhcNMjIwNDA4MDU1NjQ1WhcNMzIwNDA1MDU1\nNjQ1WjAcMRowGAYDVQQDDBFGUkVFTkVUX0NBRkVfVVNFUjCBmzAQBgcqhkjOPQIB\nBgUrgQQAIwOBhgAEAckFVDsbMz+JF9Qy5GwHT5BD/LcVvngVlzz1Q7Ic/CU7+uKr\nDWxntA27mxKrxFKC62tvA0c2Pxb4/IP/unTedSniAMh0846eON/JP+F9d0R8oUSY\nxkgAE92hwkSXvMz78sTVM7jnjGCBYF7y4AXShDTl3ms0qtCD1PQG80abWZ4rM0oO\no4GjMIGgMAkGA1UdEwQCMAAwHQYDVR0OBBYEFILOwbGdg3B//iJnuDuPcQpheV2Q\nMFIGA1UdIwRLMEmAFMq8OgikKYQU+TaiBCIjp9h1bPXjoRukGTAXMRUwEwYDVQQD\nDAxGUkVFTkVUX0NBRkWCFFwSsjC0BUYtsYEVvGwOSITy5sSFMBMGA1UdJQQMMAoG\nCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDAKBggqhkjOPQQDBAOBiwAwgYcCQgFSq6IU\n4hDc5QtTmmNcIIs5x93ZggeCrpwutHcTrsdRlmFG4TwAENGsUK/IpSzgJyeRiiI9\nIeVK7+EBCfchZX4wlwJBZsuBjbALcvOvbJHnHTRKfT/lieHTaGAzXF6z70YLVhga\n9g+K+u3ywDEqPwDAX5QFciFb0dwadWDdWNpHr0RrJzE=\n-----END CERTIFICATE-----\n</cert>\n<key>\n-----BEGIN PRIVATE KEY-----\nMIHuAgEAMBAGByqGSM49AgEGBSuBBAAjBIHWMIHTAgEBBEIBS7BhlQsf9Gmk64ZK\n+V1ZQ4ZgwjYqnmIWAlUopmwy/GEc4BlSMhWFlO4IHtNu+aEdKOj9rgQHDDjapxfc\n1j53KLWhgYkDgYYABAHJBVQ7GzM/iRfUMuRsB0+QQ/y3Fb54FZc89UOyHPwlO/ri\nqw1sZ7QNu5sSq8RSgutrbwNHNj8W+PyD/7p03nUp4gDIdPOOnjjfyT/hfXdEfKFE\nmMZIABPdocJEl7zM+/LE1TO454xggWBe8uAF0oQ05d5rNKrQg9T0BvNGm1meKzNK\nDg==\n-----END PRIVATE KEY-----\n</key>\n<tls-crypt>\n#\n# 2048 bit OpenVPN static key\n#\n-----BEGIN OpenVPN Static key V1-----\n56ee4121ee1aa1b70f67b8e93f2806e5\nee04c507e4927fd46a39444b89524d96\n083357dcf415e903a8936c3c484cf41d\n183c2df5ae7e7dca8f17925d06aaec18\na87109c8b66ce0619066a85971a5e624\nb0bf9f45ff2a1a24ad0441ab9465154c\n8bdb1142431b35c2a21716544574e8d7\n449dc6894a1a739961e9c872af14dd39\nd8ee16e2214741abc1ddf75be501c21b\nbbfc5ea185069063de234d7ffdf94c6c\nad9e0c497dc9a269a6596580100fa0fd\nad990a8dec02212573a9b317567559b7\n10b20dcb4719b5fefa1e59e82b0d031d\n679cb38e15946d726577b71b39bf0646\nc03a7f04b01fe61132b078dc49b7bd79\nefa6836cec9e6acff06abf81c6035738\n-----END OpenVPN Static key V1-----\n</tls-crypt>"
+      },
+      "port": {
+        "openvpn": {
+          "tcp": 110,
+          "udp": 53,
+          "ssl": 421
+        },
+        "ssh": {
+          "openssh": 22,
+          "dropbear": 550,
+          "stunnel": 443,
+          "dnstt": 7000
+        }
+      },
+      "slowdns": {
+        "public_key": "",
+        "name_server": ""
+      },
+      "authentication": {
+        "username": "cafe-quetogoju1",
+        "password": "Banana#143"
+      }
+    }
+  ],
+  "networks": [
+    {
+      "name": "Tweak 01 UDP",
+      "info": "",
+      "icon": "",
+      "type": "udp"
+    },
+    {
+      "name": "OpenVPN H UDP",
+      "info": "",
+      "icon": "",
+      "type": "openvpn_hysteria"
+    },
+    {
+      "name": "OpenVPN UDP",
+      "info": "",
+      "icon": "",
+      "type": "openvpn"
+    },
+    {
+      "name": "OpenVPN TCP Direct",
+      "info": "",
+      "icon": "",
+      "type": "openvpn"
+    },
+    {
+      "name": "OpenVPN TCP Non Inject",
+      "info": "",
+      "icon": "",
+      "type": "openvpn"
+    },
+    {
+      "name": "OpenVPN TCP",
+      "info": "",
+      "icon": "",
+      "type": "openvpn",
+      "tweaks": {
+        "http": {
+          "payload": ""
+        }
+      }
+    },
+    {
+      "name": "OpenVPN SSL",
+      "info": "",
+      "icon": "",
+      "type": "openvpn",
+      "tweaks": {
+        "ssl": {
+          "sni": "",
+          "protocol": "TLSv1"
+        }
+      }
+    },
+    {
+      "name": "SSH Direct",
+      "info": "",
+      "icon": "",
+      "vpn_settings": {
+        "dns_forwarding": {
+          "primary": "",
+          "secondary": ""
+        },
+        "udp_forwarding": {
+          "port": 53
+        },
+        "ssh_compression": true
+      }
+    },
+    {
+      "name": "SSH HTTP",
+      "info": "",
+      "icon": "",
+      "type": "ssh",
+      "tweaks": {
+        "http": {
+          "payload": "",
+          "proxy": {
+            "host": "",
+            "port": 8000
+          }
+        }
+      }
+    },
+    {
+      "name": "SSH SSL",
+      "info": "",
+      "icon": "",
+      "type": "ssh",
+      "tweaks": {
+        "ssl": {
+          "sni": "m.google.com",
+          "protocol": "TLSv1"
+        }
+      }
+    },
+    {
+      "name": "Tweak 03",
+      "info": "",
+      "icon": "",
+      "type": "openvpn",
+      "tweaks": {
+        "ssl": {
+          "sni": "",
+          "protocol": "TLSv1"
+        }
+      }
+    },
+    {
+      "name": "Tweak 04",
+      "info": "",
+      "icon": "",
+      "type": "openvpn",
+      "tweaks": {
+        "dnstt": ""
+      }
+    }
+  ]
+}
