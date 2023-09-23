@@ -207,6 +207,22 @@
     {
       "icon": "ph",
       "info": "banana",
+      "name": "SSH Payload (DNSTT) Proxy SNI (copy)",
+      "tweaks": {
+        "dnstt": "dnstt",
+        "payload": "payload",
+        "proxy": {
+          "host": "proxy"
+        },
+        "ssl": {
+          "sni": "sni"
+        }
+      },
+      "type": "ssh"
+    },
+    {
+      "icon": "ph",
+      "info": "banana",
       "name": "SSH Payload (copy)"
     }
   ],
