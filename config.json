@@ -104,11 +104,30 @@
       "uuid": "f798fefb-71a2-474e-894e-d52ded36075b"
     }
   ],
-  "message": "PADAYON, Jeff!",
+  "message": "PADAYON!",
   "networks": [
     {
       "icon": "ph",
       "name": "OpenVPN",
+      "type": "openvpn"
+    },
+    {
+      "icon": "ph",
+      "name": "OpenVPN Payload",
+      "tweaks": {
+        "payload": "payload"
+      },
+      "type": "openvpn"
+    },
+    {
+      "icon": "ph",
+      "name": "OpenVPN Websocket",
+      "tweaks": {
+        "payload": "payload",
+        "ssl": {
+          "sni": "sni"
+        }
+      },
       "type": "openvpn"
     },
     {
@@ -227,5 +246,5 @@
     }
   ],
   "production": false,
-  "version": 1.0
+  "version": 1.1
 }
